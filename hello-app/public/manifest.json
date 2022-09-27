@@ -1,0 +1,26 @@
+{
+  "short_name": "Hello App",
+  "name": "Create Hello App ",
+  "icons": [
+    {
+      "src": "hello-emoticon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }, 
+    {
+      "src": "hello-emoji.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "bye-emoji.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

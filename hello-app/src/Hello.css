@@ -1,0 +1,65 @@
+.Hello {
+  text-align: center;
+}
+
+.Hello-logo, .Bye-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Hello-logo {
+    animation: Hello-logo-spin infinite 10s linear;
+  }
+  .Bye-logo {
+    animation: Bye-logo-spin infinite 5s linear;
+  }
+}
+
+.Hello-header, .Bye-footer {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100%;
+}
+
+.Bye-footer {
+  background-color: grey;
+}
+
+.Hello-link, .Bye-link {
+  color: #61dafb;
+  margin: 30px;
+}
+
+.Hello-btn {
+  color: brown;
+  padding: 2%;
+  margin-top: 30px;
+  border: 2px inset red;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+@keyframes Hello-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes Bye-logo-spin {
+  from {
+    transform: rotate(45eg);
+  }
+  to {
+    transform: rotate(-45deg);
+  }
+}
